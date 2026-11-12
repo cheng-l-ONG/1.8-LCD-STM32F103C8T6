@@ -23,6 +23,8 @@ void LCD_ShowFloatNum1(u16 x,u16 y,float num,u8 len,u16 fc,u16 bc,u8 sizey);//�
 
 void LCD_ShowPicture(u16 x,u16 y,u16 length,u16 width,const u8 pic[]);//显示图片
 
+void LCD_ShowFloat(u16 x,u16 y,float num,u16 fc,u16 bc,u8 sizey);//在指定位置显示一个浮点数
+void LCD_ShowUI(void);//显示界面固定部分
 
 //画笔颜色
 #define WHITE         	 0xFFFF
