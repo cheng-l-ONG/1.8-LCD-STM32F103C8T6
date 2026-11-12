@@ -1,0 +1,3 @@
+* text=auto
+*.c   text eol=crlf working-tree-encoding=GBK
+*.h   text eol=crlf working-tree-encoding=GBK
